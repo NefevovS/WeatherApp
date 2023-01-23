@@ -1,0 +1,112 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+.header {
+  width: 980px;
+  height: 216px;
+  margin: 0 auto;
+  background: linear-gradient(92.7deg, #4cb8c4 0%, #3cd3ad 100%), #232323;
+}
+.title {
+  padding-top: 40px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  color: #ffffff;
+}
+.form {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 460px;
+  height: 54px;
+}
+.input {
+  width: 460px;
+  height: 54px;
+  padding-left: 15px;
+  padding-right: 150px;
+  background-color: white;
+  border-radius: 6px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+.btn {
+  position: absolute;
+  right: 0;
+  width: 145px;
+  height: 54px;
+  background: #ed3052;
+  border-radius: 6px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+}
+.btn:hover {
+  background: #d42a49;
+}
+
+.card {
+  width: 360px;
+  /* height: 249px; */
+  margin: 50px auto;
+  box-shadow: 0px 5px 20px rgba(27, 108, 114, 0.25);
+  border-radius: 6px;
+}
+.card-city {
+  position: relative;
+  display: inline-block;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.card-city span {
+  position: absolute;
+  top: 50%;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  background: #e5464f;
+  border-radius: 6px;
+  padding: 3px 5px;
+}
+.card-weather {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 30px;
+}
+.card-value {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 92px;
+  line-height: 100%;
+  color: #000000;
+}
+.card-img {
+}
+.card-weather-text {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
